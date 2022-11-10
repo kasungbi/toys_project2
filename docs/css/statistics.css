@@ -1,8 +1,15 @@
-* {
+/* * {
   border: 1px dotted gray;
-}
+} */
 .side-menu {
   height: 100px;
-  width: 200px;
   text-align: center;
+}
+
+.col-1 {
+  background-color: rgb(255, 229, 153);
+  width: 190px;
+}
+.col-2 {
+  width: 75%;
 }
