@@ -9,7 +9,11 @@
 .col-1 {
   background-color: rgb(255, 229, 153);
   width: 190px;
+  text-decoration: none;
 }
 .col-2 {
   width: 75%;
+}
+.col-1 > a {
+  text-decoration: none;
 }
