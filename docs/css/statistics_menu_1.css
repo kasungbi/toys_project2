@@ -1,0 +1,14 @@
+* {
+  border: 1px dotted gray;
+}
+.result-table th,
+.result-table td {
+  width: 100px;
+}
+
+.result-table {
+}
+
+.survey-end {
+  text-align: center;
+}
