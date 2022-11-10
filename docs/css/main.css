@@ -26,17 +26,13 @@ img {
   color: black;
 }
 
-.div {
+.footer {
   background-color: rgb(255, 229, 153);
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 aside {
   height: 600px;
-}
-button{
-    border: 0;
-    outline: 0;
-    background-color: rgb(255, 229, 153);
 }
