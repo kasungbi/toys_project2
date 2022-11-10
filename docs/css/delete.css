@@ -37,3 +37,17 @@ aside {
   height: 600px;
 }
 
+/* --------------------------------------------------------------------------- */
+
+.div-output{
+    text-align: center;
+    padding: auto;
+}
+
+.button-output{
+    margin-top: 10px;
+}
+
+fieldset{
+    border: 0px;
+}

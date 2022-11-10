@@ -10,7 +10,9 @@
   <body>
     <header>
       <ul>
-        <li><img src="./hyundai.png" alt="" /></li>
+        <li>
+          <a href="./main.html"> <img src="./hyundai.png" alt="" /></a>
+        </li>
         <li><a class="no-underline" href="./survey.html">설문</a></li>
         <li><a class="no-underline" href="./statics.html">통계</a></li>
         <li><a class="no-underline" href="./delete.html">삭제</a></li>
@@ -20,7 +22,16 @@
     </header>
 
     <aside>
-      <div><h3>※ 설문을 삭제하시겠습니까?</h3></div>
+      <form action="./main.html">
+        <fieldset>
+          <div class="div-output">
+            <h3>※ 설문을 <span style="color: red">삭제</span>하시겠습니까?</h3>
+            비밀번호 <input type="password" name="del_password" />
+            <br />
+            <button class="button-output" type="submit">삭제</button>
+          </div>
+        </fieldset>
+      </form>
     </aside>
 
     <footer>
