@@ -36,7 +36,7 @@ aside {
   height: 600px;
 }
 button{
-    /* border: 0;
-    outline: 0; */
+    border: 0;
+    outline: 0;
     background-color: rgb(255, 229, 153);
 }
