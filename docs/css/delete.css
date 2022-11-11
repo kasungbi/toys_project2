@@ -31,10 +31,7 @@ img {
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-aside {
-  height: 600px;
+  margin-bottom: 20px;
 }
 
 /* ------------------------------윗부분은 공통적인 css--------------------------------------------- */
@@ -50,4 +47,13 @@ aside {
 
 fieldset {
   border: 0px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  margin-top: auto;
 }
