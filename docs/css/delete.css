@@ -39,15 +39,15 @@ aside {
 
 /* ------------------------------윗부분은 공통적인 css--------------------------------------------- */
 
-.div-output{
-    text-align: center;
-    padding: auto;
+.div-output {
+  text-align: center;
+  padding: auto;
 }
 
-.button-output{
-    margin-top: 10px;
+.button-output {
+  margin-top: 10px;
 }
 
-fieldset{
-    border: 0px;
+fieldset {
+  border: 0px;
 }
