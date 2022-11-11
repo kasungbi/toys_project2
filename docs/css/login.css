@@ -45,3 +45,7 @@ aside {
 fieldset {
   border: 0px;
 }
+
+.button-output{
+  margin-top: 5px;
+}
