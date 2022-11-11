@@ -43,7 +43,7 @@ fieldset {
   border: 0px;
 }
 
-form{
+form {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -59,8 +59,10 @@ td {
   padding: 5px;
 }
 
-th{
+th {
   text-align: center;
 }
 
-
+.button-output {
+  margin-top: 5px;
+}
