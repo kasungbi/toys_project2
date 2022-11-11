@@ -40,17 +40,18 @@ aside {
 /* ------------------------------윗부분은 공통적인 css--------------------------------------------- */
 
 .button-output {
-  font-size: 20px;
+  margin-top: 30px;
+  font-size: 15px;
   font-weight: 900;
-  padding: 20px 60px 20px 60px;
-  border: 0;
-  outline: 0;
-  background-color: white;
+  /* padding: 20px 60px 20px 60px; */
+  /* border: 0; */
+  /* outline: 0; */
+  /* background-color: white; */
 }
 
 fieldset {
-    border: 0px;
-  }
+  border: 0px;
+}
 
 table {
   display: flex;
