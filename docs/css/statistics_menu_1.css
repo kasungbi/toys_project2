@@ -19,3 +19,9 @@
 .survey-end {
   text-align: center;
 }
+.middle-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
