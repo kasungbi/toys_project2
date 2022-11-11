@@ -17,3 +17,11 @@
 .col-1 > a {
   text-decoration: none;
 }
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  margin-top: auto;
+}
