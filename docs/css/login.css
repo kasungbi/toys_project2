@@ -34,12 +34,7 @@ img {
   margin-bottom: 20px;
 }
 
-aside {
-  /* height: 600px; */
-  display: flex;
-  justify-content: center;
-  text-align: right;
-}
+
 
 /* ------------------------------윗부분은 공통적인 css--------------------------------------------- */
 
@@ -57,4 +52,10 @@ body {
 }
 footer {
   margin-top: auto;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
