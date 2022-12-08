@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!-- <link rel="stylesheet" href="../css/main.css" /> -->
+		<link rel="stylesheet" href="../css/main.css" />
 		<!-- <link rel="stylesheet" href="../css/statistics.css" /> -->
 		<!-- <link rel="stylesheet" href="../css/statistics_menu_1.css" /> -->
 		<title>Main</title>
@@ -15,6 +15,18 @@
 			crossorigin="anonymous" />
 	</head>
 	<body>
+		<header>
+			<ul>
+				<li>
+					<a href="./index.html"> <img src="./hyundai.png" alt="" /></a>
+				</li>
+				<li><a class="no-underline" href="./survey.html">설문</a></li>
+				<li><a class="no-underline" href="./statistics.html">통계</a></li>
+				<li><a class="no-underline" href="./delete.html">삭제</a></li>
+				<li><a class="no-underline" href="./login.html">로그인</a></li>
+				<li><a class="no-underline" href="./signup.html">회원가입</a></li>
+			</ul>
+		</header>
 		<main>
 			<div class="container-fluid">
 				<div class="fs-5 mb-3">[페이지경로] 통계 > 설문자별 답변결과</div>
@@ -29,7 +41,10 @@
 					</ul>
 				</div>
 				<div class="container">
-					<table class="table table-striped table-hover text-center">
+					<table class="table table-striped table-hover text-center caption-top">
+						<caption class="text-center">
+							<설문자별 답변결과>
+						</caption>
 						<thead>
 							<tr class="table-success">
 								<th>ID</th>
@@ -83,7 +98,11 @@
 				</div>
 			</div>
 		</main>
-
+		<footer>
+			<div class="footer">
+				<a class="no-underline" href="https://www.hyundai.com/kr/ko/e" target="_blank">회사 연락처 및 정보</a>
+			</div>
+		</footer>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
