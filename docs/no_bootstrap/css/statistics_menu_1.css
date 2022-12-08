@@ -1,0 +1,27 @@
+/* * {
+  border: 1px dotted gray;
+} */
+.result-table,
+.result-table th,
+.result-table td {
+  border: 1px solid black;
+}
+.result-table th,
+.result-table td {
+  width: 100px;
+}
+
+.result-table td,
+.result-table th {
+  text-align: center;
+}
+
+.survey-end {
+  text-align: center;
+}
+.middle-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
