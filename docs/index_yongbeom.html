@@ -12,23 +12,29 @@
 			crossorigin="anonymous" />
 	</head>
 	<body>
-		<header style="background-color: rgb(255, 229, 153)">
+		<header class="" style="background-color: rgb(255, 229, 153)">
 			<div class="container">
 				<nav class="nav d-flex align-items-center justify-content-around" style="height: 50px">
 					<a href="./index.html" class="nav-link p-0">
 						<img src="./hyundai.png" alt="" width="50" />
 					</a>
-					<a href="./html/survey.html" class="nav-link text-dark">설문</a>
-					<a href="./html/statistics.html" class="nav-link text-dark">통계</a>
-					<a href="./html/delete.html" class="nav-link text-dark">삭제</a>
-					<a href="./html/login.html" class="nav-link text-dark">로그인</a>
-					<a href="./html/signup.html" class="nav-link text-dark">회원가입</a>
+					<a href="./html/survey.html" class="nav-link text-reset">설문</a>
+					<div class="dropdown btn">
+						<div class="dropdown-toggle" data-bs-toggle="dropdown">통계</div>
+						<ul class="dropdown-menu">
+							<a href="./html/statistics_menu1.html" class="dropdown-item">설문자별 답변결과</a>
+							<a href="./html/statistics_menu2.html" class="dropdown-item">질문별 총 답변수</a>
+						</ul>
+					</div>
+					<a href="./html/delete.html" class="nav-link text-reset">삭제</a>
+					<a href="./html/login.html" class="nav-link text-reset">로그인</a>
+					<a href="./html/signup.html" class="nav-link text-reset">회원가입</a>
 				</nav>
 			</div>
 		</header>
 		<footer class="fixed-bottom p-3" style="background-color: rgb(255, 229, 153)">
 			<div class="footer">
-				<a class="text-decoration-none text-dark" href="https://www.hyundai.com/kr/ko/e" target="_blank"
+				<a class="text-decoration-none text-reset" href="https://www.hyundai.com/kr/ko/e" target="_blank"
 					>회사 연락처 및 정보</a
 				>
 			</div>
