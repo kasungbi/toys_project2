@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/survey.css" />
     <title>Main</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header>
@@ -21,12 +27,82 @@
       </ul>
     </header>
 
-    <page_location>
-      <div>[페이지경로] 설문</div>
-      <hr />
-    </page_location>
+    <main>
+      <page_location>
+        <div>[페이지경로] 설문</div>
+        <hr />
+      </page_location>
 
-    <aside>
+      <div class="container">
+        <form action="../index.html">
+          <table class="table">
+            <tbody>
+              <tr>
+                <th></th>
+                <th>매우만족</th>
+                <th>만족</th>
+                <th>보통</th>
+                <th>불만족</th>
+                <th style="width: 100px">매우불만족</th>
+              </tr>
+              <tr>
+                <th class="text-end">1. 현대 자동차의 브랜드 이미지에 만족하십니까?</th>
+                <td><input type="radio" name="survey_1" required /></td>
+                <td><input type="radio" name="survey_1" required /></td>
+                <td><input type="radio" name="survey_1" required /></td>
+                <td><input type="radio" name="survey_1" required /></td>
+                <td><input type="radio" name="survey_1" required /></td>
+              </tr>
+              <tr>
+                <th class="text-start">2. 현대 차량의 주행성능에 만족하십니까?</th>
+                <td><input type="radio" name="survey_2" required /></td>
+                <td><input type="radio" name="survey_2" required /></td>
+                <td><input type="radio" name="survey_2" required /></td>
+                <td><input type="radio" name="survey_2" required /></td>
+                <td><input type="radio" name="survey_2" required /></td>
+              </tr>
+              <tr>
+                <th class="text-start">3. 현대 차량의 가격에 만족하십니까?</th>
+                <td><input type="radio" name="survey_3" required /></td>
+                <td><input type="radio" name="survey_3" required /></td>
+                <td><input type="radio" name="survey_3" required /></td>
+                <td><input type="radio" name="survey_3" required /></td>
+                <td><input type="radio" name="survey_3" required /></td>
+              </tr>
+              <tr>
+                <th class="text-start">4. 현대 차량의 디자인에 만족하십니까?</th>
+                <td><input type="radio" name="survey_4" required /></td>
+                <td><input type="radio" name="survey_4" required /></td>
+                <td><input type="radio" name="survey_4" required /></td>
+                <td><input type="radio" name="survey_4" required /></td>
+                <td><input type="radio" name="survey_4" required /></td>
+              </tr>
+              <tr>
+                <th class="text-start">5. 현대 차량의 내구성에 만족하십니까?</th>
+                <td><input type="radio" name="survey_5" required /></td>
+                <td><input type="radio" name="survey_5" required /></td>
+                <td><input type="radio" name="survey_5" required /></td>
+                <td><input type="radio" name="survey_5" required /></td>
+                <td><input type="radio" name="survey_5" required /></td>
+              </tr>
+              <tr>
+                <th class="text-start">6. 현대 직원의 응대에 만족하십니까?</th>
+                <td><input type="radio" name="survey_6" required /></td>
+                <td><input type="radio" name="survey_6" required /></td>
+                <td><input type="radio" name="survey_6" required /></td>
+                <td><input type="radio" name="survey_6" required /></td>
+                <td><input type="radio" name="survey_6" required /></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="text-center">
+            <button class="btn btn-secondary form-control" style="width: 10%">제출</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <!-- <aside>
       <form action="../index.html">
         <fieldset>
           <table>
@@ -40,51 +116,51 @@
             </tr>
             <tr>
               <th>1. 현대 자동차의 브랜드 이미지에 만족하십니까?</th>
-              <td><input type="radio" name="survey_1" required/></td>
-              <td><input type="radio" name="survey_1" required/></td>
-              <td><input type="radio" name="survey_1" required/></td>
-              <td><input type="radio" name="survey_1" required/></td>
-              <td><input type="radio" name="survey_1" required/></td>
+              <td><input type="radio" name="survey_1" required /></td>
+              <td><input type="radio" name="survey_1" required /></td>
+              <td><input type="radio" name="survey_1" required /></td>
+              <td><input type="radio" name="survey_1" required /></td>
+              <td><input type="radio" name="survey_1" required /></td>
             </tr>
             <tr>
               <th>2. 현대 차량의 주행성능에 만족하십니까?</th>
-              <td><input type="radio" name="survey_2" required/></td>
-              <td><input type="radio" name="survey_2" required/></td>
-              <td><input type="radio" name="survey_2" required/></td>
-              <td><input type="radio" name="survey_2" required/></td>
-              <td><input type="radio" name="survey_2" required/></td>
+              <td><input type="radio" name="survey_2" required /></td>
+              <td><input type="radio" name="survey_2" required /></td>
+              <td><input type="radio" name="survey_2" required /></td>
+              <td><input type="radio" name="survey_2" required /></td>
+              <td><input type="radio" name="survey_2" required /></td>
             </tr>
             <tr>
               <th>3. 현대 차량의 가격에 만족하십니까?</th>
-              <td><input type="radio" name="survey_3" required/></td>
-              <td><input type="radio" name="survey_3" required/></td>
-              <td><input type="radio" name="survey_3" required/></td>
-              <td><input type="radio" name="survey_3" required/></td>
-              <td><input type="radio" name="survey_3" required/></td>
+              <td><input type="radio" name="survey_3" required /></td>
+              <td><input type="radio" name="survey_3" required /></td>
+              <td><input type="radio" name="survey_3" required /></td>
+              <td><input type="radio" name="survey_3" required /></td>
+              <td><input type="radio" name="survey_3" required /></td>
             </tr>
             <tr>
               <th>4. 현대 차량의 디자인에 만족하십니까?</th>
-              <td><input type="radio" name="survey_4" required/></td>
-              <td><input type="radio" name="survey_4" required/></td>
-              <td><input type="radio" name="survey_4" required/></td>
-              <td><input type="radio" name="survey_4" required/></td>
-              <td><input type="radio" name="survey_4" required/></td>
+              <td><input type="radio" name="survey_4" required /></td>
+              <td><input type="radio" name="survey_4" required /></td>
+              <td><input type="radio" name="survey_4" required /></td>
+              <td><input type="radio" name="survey_4" required /></td>
+              <td><input type="radio" name="survey_4" required /></td>
             </tr>
             <tr>
               <th>5. 현대 차량의 내구성에 만족하십니까?</th>
-              <td><input type="radio" name="survey_5" required/></td>
-              <td><input type="radio" name="survey_5" required/></td>
-              <td><input type="radio" name="survey_5" required/></td>
-              <td><input type="radio" name="survey_5" required/></td>
-              <td><input type="radio" name="survey_5" required/></td>
+              <td><input type="radio" name="survey_5" required /></td>
+              <td><input type="radio" name="survey_5" required /></td>
+              <td><input type="radio" name="survey_5" required /></td>
+              <td><input type="radio" name="survey_5" required /></td>
+              <td><input type="radio" name="survey_5" required /></td>
             </tr>
             <tr>
               <th>6. 현대 직원의 응대에 만족하십니까?</th>
-              <td><input type="radio" name="survey_6" required/></td>
-              <td><input type="radio" name="survey_6" required/></td>
-              <td><input type="radio" name="survey_6" required/></td>
-              <td><input type="radio" name="survey_6" required/></td>
-              <td><input type="radio" name="survey_6" required/></td>
+              <td><input type="radio" name="survey_6" required /></td>
+              <td><input type="radio" name="survey_6" required /></td>
+              <td><input type="radio" name="survey_6" required /></td>
+              <td><input type="radio" name="survey_6" required /></td>
+              <td><input type="radio" name="survey_6" required /></td>
             </tr>
             <tr>
               <td colspan="6">
@@ -94,16 +170,11 @@
           </table>
         </fieldset>
       </form>
-    </aside>
+    </aside> -->
 
     <footer>
       <div class="footer">
-        <a
-          class="no-underline"
-          href="https://www.hyundai.com/kr/ko/e"
-          target="_blank"
-          >회사 연락처 및 정보</a
-        >
+        <a class="no-underline" href="https://www.hyundai.com/kr/ko/e" target="_blank">회사 연락처 및 정보</a>
       </div>
     </footer>
   </body>
