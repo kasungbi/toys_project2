@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/delete.css" />
     <title>Main</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header>
@@ -21,33 +27,48 @@
       </ul>
     </header>
 
-    <page_location>
-      <div>[페이지경로] 삭제</div>
-      <hr />
-    </page_location>
+    <main>
+      <page_location>
+        <div>[페이지경로] 삭제</div>
+        <hr />
+      </page_location>
 
-    <aside>
+      <div class="container" style="width: 500px">
+        <div class="fw-bold fs-5 text-center mb-3">※ 설문을 <span style="color: red">삭제</span>하시겠습니까?</div>
+        <form action="../index.html" id="delete">
+          <div class="d-flex justify-content-center">
+            <label for="checkPW" class="form-label mt-auto mb-auto">비밀번호</label>
+            <input type="password" name="checkPW" id="checkPW" class="form-control w-50 ms-2" />
+          </div>
+          <div class="d-flex justify-content-center">
+            <button class="form-control mt-2" style="width: 15%">삭제</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <!-- <aside>
       <form action="../index.html">
         <fieldset>
           <div class="div-output">
             <h3>※ 설문을 <span style="color: red">삭제</span>하시겠습니까?</h3>
-            비밀번호 <input type="password" name="del_password" required/>
+            비밀번호 <input type="password" name="del_password" required />
             <br />
             <button class="button-output" type="submit">삭제</button>
           </div>
         </fieldset>
       </form>
-    </aside>
+    </aside> -->
 
     <footer>
       <div class="footer">
-        <a
-          class="no-underline"
-          href="https://www.hyundai.com/kr/ko/e"
-          target="_blank"
-          >회사 연락처 및 정보</a
-        >
+        <a class="no-underline" href="https://www.hyundai.com/kr/ko/e" target="_blank">회사 연락처 및 정보</a>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
