@@ -8,7 +8,6 @@
 ## Source Code
 
 - 김용범
-  - [statistics](./docs/html/statistics.html)
   - [statistics_menu1](./docs/html/statistics_menu1.html)
   - [statistics_menu2](./docs/html/statistics_menu2.html)
 - 김병근
@@ -28,4 +27,12 @@
 
 ---
 
-#
+드롭다운 메뉴에서 화살표 지우기
+
+아래 드롭다운 코드에서 dropdown-toggle 이라는 클래스 이름을 지워주면 화살표 모양을 지울수 있습니다.
+
+```
+<div class="dropdown btn">
+	<div class="dropdown-toggle" data-bs-toggle="dropdown">통계</div>
+</div>
+```
