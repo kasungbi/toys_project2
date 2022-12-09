@@ -36,5 +36,9 @@
 ```
 <div class="dropdown btn">
 	<div class="dropdown-toggle" data-bs-toggle="dropdown">통계</div>
+    <ul class="dropdown-menu">
+		<a href="./html/statistics_menu1.html" class="dropdown-item">설문자별 답변결과</a>
+		<a href="./html/statistics_menu2.html" class="dropdown-item">질문별 총 답변수</a>
+	</ul>
 </div>
 ```
